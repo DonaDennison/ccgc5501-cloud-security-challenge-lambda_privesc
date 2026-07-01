@@ -1,0 +1,42 @@
+# Terraform local/provider files
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform variable files that may contain secrets
+*.tfvars
+*.tfvars.json
+
+# AWS credentials / local config
+.aws/
+credentials
+config
+*.pem
+*.key
+
+# PowerShell / terminal output files
+*.log
+*.out
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Keep these files allowed:
+# SOLUTION.md
+# AI_CHAT_LOG.md
+# event.json
+# response.json
+# lambda_payload/
+# admin-access-attached-to-chris.png
+# .terraform.lock.hcl
